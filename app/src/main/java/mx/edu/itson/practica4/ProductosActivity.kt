@@ -19,6 +19,7 @@ class ProductosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_productos)
         agregarProductos()
+        agregarProductoEspecialidades()
 
         var listView: ListView = findViewById(R.id.litview) as ListView
 
@@ -33,6 +34,9 @@ class ProductosActivity : AppCompatActivity() {
         antojitos.add(Product("Sincronizadas",R.drawable.sincronizadas,"Tortilla de harina rellena con queso y jamon. Se sirve con lechuga, crema y guacamole Sandwich of Two four tortillas filled with ham and cheese. Served with lettuce, sour cream, and guacamole.",7.69))
         antojitos.add(Product("Sopes",R.drawable.sopes,"Tortilla de harina rellena con queso y jamon. Se sirve con lechuga, crema y guacamole Sandwich of Two four tortillas filled with ham and cheese. Served with lettuce, sour cream, and guacamole.",3.56))
         antojitos.add(Product("Tostadas",R.drawable.tostadas,"Tortilla frita con frijoles, tu carne favorita, lechuga, queso fresco, crema y jitomate Fried tortilla with beans, your choice of meat, lettuce, fresh cheese, sour cream and tomatoes",3.73))
+
+    }
+    fun agregarProductoEspecialidades(){
 
     }
     private class AdaptarProductos:BaseAdapter{

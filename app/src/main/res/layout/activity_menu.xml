@@ -38,7 +38,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/button_cold_drinks"/>
+            android:id="@+id/btnAntojitos"/>
         <Button
             android:text="Especialidades"
             android:textColor="@color/white"
@@ -49,7 +49,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/button_hot_drinks"/>
+            android:id="@+id/especialidades"/>
         <Button
             android:text="Combinations"
             android:textColor="@color/white"
@@ -59,7 +59,8 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
-            android:paddingVertical="@dimen/menu_buttons_paddings" />
+            android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/combinations"/>
         <Button
             android:text="Tortas"
             android:textColor="@color/white"
@@ -70,6 +71,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/tortas"
             />
         <Button
             android:text="Sopas"
@@ -81,6 +83,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/sopas"
             />
         <Button
             android:text="Drinks"
@@ -92,6 +95,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
+            android:id="@+id/drinks"
             />
     </GridLayout>
 </android.support.v7.widget.LinearLayoutCompat>
